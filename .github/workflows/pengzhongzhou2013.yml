@@ -2,28 +2,18 @@ name: pengzhongzhou2013
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 0/6 * * *'
+    - cron: '19 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          qtl9467: ${{ secrets.qtl9467 }}
+          t01760: ${{ secrets.t01760 }}
         run: |
-          echo $qtl9467 | jq -r .thrm49732 | /bin/bash
-          echo $ojm7789 | jq -r .xrxg1137 | /bin/bash
-          echo $k4999 | jq -r .gkdp84 | /bin/bash
-          echo $xuz6306 | jq -r .i8990 | /bin/bash
-          echo $phnkk770 | jq -r .cqzt0 | /bin/bash
-          echo $cuv08 | jq -r .auezs8216 | /bin/bash
-          echo $rzp95 | jq -r .f955 | /bin/bash
-          echo $ycva3 | jq -r .e664 | /bin/bash
-          echo $v3141 | jq -r .nmftu15 | /bin/bash
-          echo $pq747 | jq -r .ne4 | /bin/bash
-          echo $nmhug447 | jq -r .dsdb0 | /bin/bash
-          echo $h26523 | jq -r .ho031 | /bin/bash
-          echo $vehby3263 | jq -r .egs174 | /bin/bash
-          echo $i8 | jq -r .ve19706 | /bin/bash
+          echo $t01760 | jq -r .ffoxz30 | /bin/bash
+          echo $ynzq851 | jq -r .ycfp653 | /bin/bash
+          echo $yyjz845 | jq -r .te3 | /bin/bash
 
