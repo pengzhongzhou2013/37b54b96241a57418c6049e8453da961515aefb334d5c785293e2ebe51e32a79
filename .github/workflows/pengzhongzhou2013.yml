@@ -3,7 +3,7 @@ name: pengzhongzhou2013
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
+    - cron: '20 4/6 * * *'
 
 jobs:
   build:
@@ -13,23 +13,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengzhongzhou2013
         env:
-          wmbv71: ${{ secrets.wmbv71 }}
+          pj50137: ${{ secrets.pj50137 }}
         run: |
-          echo $wmbv71 | jq -r .ro3 | /bin/bash
-          echo $m08500 | jq -r .lh6 | /bin/bash
-          echo $nea76112 | jq -r .x06003 | /bin/bash
-          echo $olcm77354 | jq -r .dezmk6 | /bin/bash
-          echo $f3861 | jq -r .jssjq5 | /bin/bash
-          echo $xrnuc8493 | jq -r .y81217 | /bin/bash
-          echo $ymvg4 | jq -r .mprk062 | /bin/bash
-          echo $gd80819 | jq -r .drb49 | /bin/bash
-          echo $csipp5770 | jq -r .oun0 | /bin/bash
-          echo $c6335 | jq -r .asmk7 | /bin/bash
-          echo $yxod3917 | jq -r .ihu8 | /bin/bash
-          echo $ilu88985 | jq -r .bz41 | /bin/bash
-          echo $axk2 | jq -r .hj92 | /bin/bash
-          echo $w0858 | jq -r .jolno129 | /bin/bash
-          echo $d39 | jq -r .jfc562 | /bin/bash
-          echo $skd4 | jq -r .skkzt251 | /bin/bash
-          echo $adkti1862 | jq -r .qnuz189 | /bin/bash
+          echo $pj50137 | jq -r .qv9359 | /bin/bash
+          echo $zkap92 | jq -r .x1 | /bin/bash
+          echo $uc7 | jq -r .al627 | /bin/bash
+          echo $qxdlp39 | jq -r .ycenk1 | /bin/bash
 
